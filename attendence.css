@@ -1,0 +1,56 @@
+.body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./wp3190713.jpg);
+}
+
+main div{
+background-color:rgb(7, 76, 76);
+width:25%;
+color: aliceblue;
+border-radius: 5px;
+margin: auto;
+}
+
+main div button{
+  height: 2rem;
+  width: 70%;
+  border:none;
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  background-color: brown;
+  color: aliceblue;
+  border-radius: 5px;
+
+}
+
+
+main h2{
+  text-align: center;
+}
+
+main h1{
+  text-align: center;
+}
+
+main p{
+  text-align: center;
+}
+main div button:active{
+  background-color: rgb(109, 216, 218);
+}
+
+main div #s:active{
+  background-color: rgb(109, 216, 218);
+}
+
+
